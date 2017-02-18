@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	width: 65%;
+    margin-left: 320px;   
+    background-color: #111;
+}
+
+.header-home-btn{
+	margin-left: -150px;
+}
+
+.header-call-btn{
+	margin-left: -150px;
+}
+
+.instro-title{
+	padding: 10px 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border-top: 1px solid;
+}
+
+.banner-img{
+	width: 100%;
+	height: 400px;
+}
+
+.company-profile{
+	height: 155px;
+    padding: 10px 50px;    
+    overflow: hidden;
+}
+
+.company-profile p{
+	text-indent: 30px;
+}
+
+.company-profile p a{
+	font-style: italic;
+}
+
+.enterprise-culture {
+	height: 300px;
+}
+
+.enterprise-culture .first-font{
+	font-size: 23px;
+    color: #2baee9;
+    padding: 30px 145px;
+    cursor: pointer;
+}
+
+.enterprise-culture .second-font{
+	font-size: 23px;
+    color: #2baee9;
+    padding: 30px 220px;
+    cursor: pointer;
+}
+
+.develop-path{
+	height: 300px;
+    background: url('../../src/images/AAAA.png') no-repeat;    
+    position: relative;
+    left: 50%;
+    width: 50%;
+}
+
+.develop-path .circle{
+	border: 10px solid;
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+    
+    

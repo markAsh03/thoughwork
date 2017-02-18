@@ -1,0 +1,111 @@
+/**
+ * create by muan at 2016-11-30
+ */
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.icon{
+	margin:0px 5px 0px 0px;
+}
+
+.product-intro .product-name{
+    font-size: 24px;
+    font-weight: bold;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    text-indent: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.product-desc .desc-container{
+	padding: 10px 20px;    
+	min-height: 444px;
+}
+
+.desc-container .desc-video{
+	width: 34%;
+	float: left;
+}
+
+.product-desc .desc-info{
+	width: 66%;
+	display: inline-block;
+	text-indent: 30px;
+}
+
+.character .charac-ul{
+	margin-left:50px;
+}
+
+.character .charac-ul .li{
+	padding: 10px;
+}
+
+.parameter .param-desc{
+	margin-left: 100px;
+    display: inline-block;
+}
+
+.parameter .param-desc p{
+	line-height: 35px;
+}
+
+.parameter .param-system {
+	display: inline-block;
+    float: right;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+
+.product-filter{
+	border-top: 1px solid #ddd;
+}
+
+.ant-tabs-nav-container{
+	padding-top: 10px;
+}
+
+.about-link .link-name{
+	width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    text-indent: 20px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 10px 0px;
+    cursor: pointer;
+    color: #666;
+}
+
+.about-link .link-banner{
+	height: 200px;
+}
+
+.link-banner .about-other ul{
+	width: 100%;
+    overflow: hidden;
+    height: 200px;
+    position: relative;
+}
+
+.link-banner .about-other ul li{
+	float: left;
+    height: 198px;
+    border: 1px solid;
+    margin-left: 5px;
+
+}
+
+.link-banner .about-other ul li img{
+	width: 240px;
+    height: 200px;
+}
+
+.footer{
+	text-align: center;
+    padding: 10px;
+    border-top: 1px solid;
+}

@@ -1,0 +1,51 @@
+/* 容器*/
+.container{
+	-webkit-perspective:1000px;
+	-moz-perspective:1000px;
+	-ms-perspective:1000px;
+	perspective: 1000px;
+}
+
+.piece-box{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 300px auto;
+	perspective-origin: 50% 50%;
+	-webkit-transform-style:preserve-3d;
+	-moz-transform-style:preserve-3d;
+	-ms-transform-style:preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.piece{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: red;
+	opacity: 0.5;
+}
+
+.piece-1{
+	background: #FF6666;
+}
+
+.piece-2{
+	background: #FFFF00;
+}
+
+.piece-3{
+	background: #006699;
+}
+
+.piece-4{
+	background: #009999;
+}
+
+.piece-5{
+	background: #FF0033;
+}
+
+.piece-6{
+	background: #FF6600;
+}

@@ -1,0 +1,253 @@
+/**
+ * create by muan at 2016-11-20
+ * css
+ */
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+.pos-a{
+	position: absolute;
+}
+
+.b{
+	font-weight: bold;
+}
+
+#container{
+	width: 80%;
+    margin-left: 198px;
+    background-color: #eee;
+    font-size: 16px;
+}
+
+.home-page-header img{	
+	width: 100%;
+    height: 62px;
+}
+
+.header-home-btn{
+    top: 25px;
+    left: 1500px; 
+    cursor: pointer;
+}
+
+.header-home-btn:hover ,.header-call-btn:hover{
+	text-decoration:underline;
+}
+
+.header-call-btn{
+	top: 25px;
+    left: 1560px;
+    cursor: pointer;   
+}
+
+.nav-item li{
+	display: inline-block;
+    min-width: 55px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 5px;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    background-color: #000;
+}
+
+.carousel-img{
+	width: 100%;
+	height: 600px;
+	cursor: pointer;
+}
+
+.banner-ctr-left{
+	position: absolute;
+    top: 115px;
+    height: 600px;
+    width: 74px;
+    padding: 250px 0px;
+    font-size: 96px;
+    cursor: pointer;
+    left: 198px;
+    opacity:0;    
+}
+
+.banner-ctr-left:hover,.banner-ctr-right:hover{
+	opacity: 0.5;
+}
+
+.banner-ctr-right{
+	position: absolute;
+    top: 115px;
+    height: 600px;
+    width: 74px;
+    padding: 250px 0px;
+    font-size: 96px;
+    cursor: pointer;
+    right: 184px;
+    opacity:0; 
+}
+
+.ant-carousel .slick-dots li button{
+	width: 12px;
+	height: 12px;
+}
+
+.ant-carousel .slick-dots{
+	bottom: 14px;
+}
+
+.product-list{
+	display: inline-block;
+}
+
+.product-list .p-lists{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.product-list .p-lists p{
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.product-name-list{
+	display: inline-block;
+}
+
+.product-detail .product-name-list{
+	width: 200px;
+	vertical-align: middle;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.product-name-list .product-list .sim .ant-collapse-content{
+	background-color: #f7f7f7;
+	text-indent: 18px;
+}
+
+.product-name-list .product-list .sim .ant-collapse-content .ant-collapse-content-box{
+	padding-top: 0px;
+}
+
+.product-detail .product-detail-td{
+	width: 1280px;
+	border: 2px solid #ccc;
+	background: #f7f7f7;
+	vertical-align: middle;
+	display: inline-block;      
+	height: 441px;
+	float: left;
+	overflow-y: auto;
+}
+
+.product-detail .product-detail-td .product-desc{
+	margin: 34px;
+	text-indent: 34px;
+	line-height: 32px;
+}
+
+.product-detail .product-detail-td .product-desc .label{
+	text-indent: 0;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.product-detail .product-detail-td .product-desc .sample-img img{
+	border-radius: 28px;
+}
+
+
+.product-detail .product-detail-td .product-desc .circile{
+	width: 5px;
+	height: 5px;
+	border: 5px solid #000;
+	border-radius: 5px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.product-detail .product-detail-td .product-desc .sample{
+	text-indent: 0;
+}
+
+.collapse-news .news-left{
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+
+.collapse-news .news-right{
+	width: 68%;
+	display: inline-block;
+	float: right;
+	border: 2px solid #ccc;
+    height: 400px;
+	overflow-y: auto;
+	line-height: 34px;
+	margin-bottom: 5px;
+}
+
+.news-right table{
+	display: block;
+}
+
+.news-right .news{
+	display: block;
+    border-bottom: 1px dotted #ccc;
+    width: 100%;
+    line-height: 40px;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+.news-right .news-date{
+	float: right;
+	color: red;
+	margin-right: 10px;
+}
+
+.news-right .news-content{
+	text-indent: 30px;
+	line-height: 28px;
+	font-size: 14px;
+
+}
+
+.news-right .news-title{
+	width: 86%;
+    display: inline-block;
+}
+
+.news-right .news-title:hover{
+	color: red;
+}
+
+.instruction-right{
+	float: right;
+    display: inline-block;
+    width: 32%;
+}
+
+.instruction-left{
+	width: 65%;
+	text-indent: 34px;
+}
+
+.partner img{
+	width: 120px;    
+	margin: 10px 20px;
+}
+
+.footer{
+	text-align: center;
+    padding: 10px;
+    border-top: 1px solid;
+}
+    
+
+
+

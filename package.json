@@ -1,0 +1,20 @@
+{
+  "name": "runoob-react-test",
+  "version": "1.0.0",
+  "description": "react 测试",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^2.4.3",
+    "react": "^0.14.7",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.1.0"
+  }
+}
